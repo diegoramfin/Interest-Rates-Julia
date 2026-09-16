@@ -49,8 +49,9 @@ julia --project=. main.jl                            # launch the TUI
 | 11 | Bond portfolio duration & convexity | §4.10 |
 
 The zero curve you enter (option 2) or bootstrap (option 3) is kept for
-the session — options 5, 7, 8, 9, 11 reuse it after a `use this curve?`
-confirmation.
+the session — options 5, 7, 8, 9, 10, 11 offer to reuse it, each with
+its own confirmation (`use this curve?`, `imply the forward from the
+current curve?`, `price the bond from the current curve?`, …).
 
 ## Worked example (Hull Table 4.3 bootstrap)
 
