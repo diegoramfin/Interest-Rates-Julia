@@ -1,0 +1,12 @@
+name = "InterestRatePricer"
+uuid = "cd12930f-44d5-46aa-9d5a-ef6453f6c0bb"
+version = "0.1.0"
+authors = ["Diego Ramirez"]
+
+[deps]
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+UnicodePlots = "b8865327-cd53-5732-bb35-84acbb429228"
+
+[compat]
+Printf = "1.11.0"
+UnicodePlots = "3.8.4"
